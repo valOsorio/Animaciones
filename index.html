@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galeria fotográfica</title>
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/css.css" />
+  </head>
+  <body>
+    <div class="grid-container">
+      <section class="navbar">
+        <nav class="navbar-mobile">
+          <img
+            class="l-marca-mobile"
+            src="./assets/img/logo-marca-b.svg"
+            alt="logo"
+          />
+          <div>
+            <i class="fa-solid fa-bars fa-2x"></i>
+          </div>
+        </nav>
+        <nav class="navbar-desktop">
+          <img
+            class="l-marca-tablet"
+            src="./assets/img/logo-marca-b.svg"
+            alt="logo"
+          />
+          <img
+            class="l-marca-desktop"
+            src="./assets/img/logo-marca.svg"
+            alt="logo"
+          />
+
+          <a href="#presentacion">Vivero</a>
+          <a href="#galeria">Galeria</a>
+          <a href="#newsletter">Contacto</a>
+        </nav>
+      </section>
+      <header class="presentacion" id="presentacion">
+        <div class="w-80">
+          <h1 class="txt-c">Paisajismo Interior</h1>
+          <p class="txt-c">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto magni
+            fuga odio, possimus dolore vel voluptate incidunt doloribus optio
+            illum eum deserunt voluptatum aspernatur in?
+          </p>
+        </div>
+      </header>
+      <main class="contenido-principal" id="galeria">
+        <div class="galeria_grid">
+          <div class="imagen1 imagen">
+            <img src="./assets/img/galeria1.png" alt="foto planta exterior" />
+            <div class="imagen_overlay">
+              <h2 class="gale-h2">plantas de exterior</h2>
+            </div>
+          </div>
+          <div class="imagen2 imagen">
+            <img src="./assets/img/galeria-principal.png" alt="foto planta interior gomero en maceta" />
+            <div class="imagen_overlay">
+              <h2>plantas de interior</h2>
+            </div>
+          </div>
+          <div class="imagen3 imagen">
+            <img src="./assets/img/galeria2.png" alt="foto filodendro en maceta" />
+            <div class="imagen_overlay">
+              <h2>Riego</h2>
+            </div>
+          </div>
+          <div class="imagen4 imagen">
+            <img src="./assets/img/galeria3.png" alt="foto planta, amaranto en maceta" />
+            <div class="imagen_overlay">
+              <h2>Poda</h2>
+            </div>
+          </div>
+          <div class="imagen5 imagen">
+            <img src="./assets/img/galeria4.png" alt="foto suculenta, otros sustratos" />
+            <div class="imagen_overlay">
+              <h2>Sustratos</h2>
+            </div>
+          </div>
+          <div class="imagen6 imagen">
+            <img src="./assets/img/galeria5.png" alt="foto planta en maceta " />
+            <div class="imagen_overlay">
+              <h2>Macetas</h2>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <section class="newsletter" id="newsletter">
+        <div class="w-80">
+          <div class="newsletter_box1">
+            <form>
+              <legend class="legend txt-c">
+                Suscríbete a nuestro newsletter
+              </legend>
+              <div class="campo">
+                <label for="nombre">Nombre</label>
+                <input type="text" class="input" id="nombre" />
+              </div>
+              <div class="campo">
+                <label for="email">Mail</label>
+                <input type="email" class="input" id="email" />
+              </div>
+              <div class="btn-flex">
+              <button class="btn">Enviar</button>
+            </div>
+            </form>
+          </div>
+          <div class="newsletter_box2"></div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="txt-c">
+          <p class="p-b">Síguenos</p>
+          <div class="rrss">
+            <i class="fa-brands fa-instagram fa-2x"></i>
+            <i class="fa-brands fa-square-facebook fa-2x"></i>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
